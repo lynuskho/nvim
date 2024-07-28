@@ -48,4 +48,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+-- neotree
+vim.keymap.set('n', '<C-n>', '<cmd>Neotree toggle<CR>', { desc = 'Neotree toggle window' })
+vim.keymap.set('n', '<leader>e', '<cmd>Neotree focus<CR>', { desc = 'Neotree focus window' })
+
 -- vim: ts=2 sts=2 sw=2 et
